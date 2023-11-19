@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>VisionariesAI</title>
+    <style>
+        body {
+            padding-top: 20px; 
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #4d45b5;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color:white;
+            display: block;
+            transition: 0.3s;
+        
+        }
+
+        .content {
+            margin-left: 250px; 
+           /* padding: 10px;*/
+           padding-bottom: 10px;
+
+        }
+        #font{
+            font-weight: bold;
+            color: white;
+            font-size: x-large;
+        }
+        .updates{
+            text-align-last: right;
+            color:#4d45b5;
+            
+        }
+        div input{
+            letter-spacing: normal;
+            width:300px;
+        }
+        /*.submit input{
+            width:50px;
+            
+        }*/
+        #submit{
+            text-align-last: right;
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="row">
+    <div class="col-3">
+<div class="sidenav">
+    <header id="font">Visionaries AI</header>
+    <a href="#"><i class="fa fa-home">Dashboard</i></a>
+    <a href="#"><i class="fa fa-user">Admin</i></a>
+    <a href="#"><i class="fa fa-user">Teachers</i></a>
+    <a href="#"><i class="fa fa-graduation-cap">Students</i></a>
+    <a href="#"><i class="fa fa-home">Parents</i></a>
+    <a href="#"><i class="fa fa-automobile">Driver</i></a>
+    <a href="#"><i class="fa fa-calendar">Event</i></a>
+    <a href="#"><i class="fa fa-dollar">Finance</i></a>
+    <a href="#"><i class="fa fa-university">Admission</i></a>
+    <a href="#"><i class="fa fa-university">Management</i></a>
+    <a href="#"><i class="fa fa-bus">Transportation</i></a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="content">
+    <div class="updates">
+    <i class="fa fa-bell"></i>   
+    <i class="fa fa-gear"></i> 
+    <i class="fa fa-user-circle-o"></i>
+    </div>
+    <h2>Add Admin</h2>   
+</div>
+<div class="col bg-primary"><center>Personal Details</center></div>
+<br>
+<div class="row">
+    <div class="col-3">  
+    </div>
+    <div class="col-4">
+        First Name<sup>*</sup><br>
+        <input type="text" placeholder="fname" required><br><br>
+        Email<sup>*</sup><br>
+        <input type="email" placeholder="email" required><br><br>
+        Address<sup>*</sup><br>
+        <textarea rows="5" placeholder="enter address"></textarea><br><br>
+        Date of Birth<sup>*</sup><br>
+        <input type="date"><br><br>
+    </div>
+    <div class="col-4">
+        Last Name<sup>*</sup><br>
+        <input type="text" placeholder="lname" requires><br><br>
+        Phone<sup>*</sup><br>
+        <input type="phone" placeholder="phone" required><br><br>
+        Photo<sup>*</sup><br>
+        <input type="file"><br><br>
+        Place Of Birth<sup>*</sup><br>
+        <input type="text" placeholder="place of birth"><br><br>
+    </div>
+</div>
+</div>
+<br>
+<div class="col bg-primary"><center>Education</center></div>
+<br>
+<div class="row">
+    <div class="col-3">
+    </div>
+    <div class="col-4">
+        University<sup>*</sup><br>
+        <input type="text" placeholder="university"><br><br>
+        Start&End date<sup>*</sup><br>
+        <input type="date"><input type="date">
+        
+    </div>
+    <div class="col-4">
+        Degree<sup>*</sup><br>
+        <input type="text" placeholder="degree"><br><br>
+        City<sup>*</sup><br>
+        <input type="text" placeholder="city"><br><br>
+    </div>
+  
+</div>
+</div>
+<br>
+<div id="submit">
+    <input type="submit" value="Save As Draft">
+    <input type="submit" value="submit">
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
