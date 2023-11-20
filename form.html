@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+    .container{
+        background-color:beige;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;        
+        align-items:start;
+    }
+    .box{
+        height:600px;
+        width: 600px;
+    }
+    #box1{
+            background-color:lightgrey;
+            width: 700px;
+        }
+    #box2{
+            background-color:white;
+            
+        }
+    .header{
+            text-align: left;
+            color: #4d45b5;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-left: 100px;
+    }
+    p{
+        padding-left: 100px;
+    }
+    img{
+        padding-left: 100px;
+        height:450px;
+        width:400px;
+    }
+    
+    #form{
+        padding-top: 150px;
+        padding-left:100px;
+        height: 400px;
+        
+        
+    }
+    #form,input{
+        width: 250px;
+    }
+    #pwd{
+        background-image: url('eye.png');
+    }
+    a{
+        padding-left: 130px;
+        font-size: 13px;
+    }
+    .button{
+        background-color:#4d45b5;
+        width:260px;
+        border-radius: 4px;
+    }
+    input{
+        border: 1px solid #4d45b5;
+        border-radius: 4px;
+        height: 30px;
+
+
+    }
+    #outside{
+        align-content: center;
+        color: blue;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <header class="header">VisionariesAI</header>
+            <p>Unlocking the doors to education, one login at a time.</p>
+            <img src="education.jpeg" alt="here we display image">
+        </div>
+        <div class="box" id="box2">
+            <div id="form">
+            <h3>Sign in to VisionariesAI</h3>
+            Email<br>
+            <input type="email" ><br><br>
+            Password<br>
+            <input id="pwd" type="password">
+            <a  href="" id="password">Forgot password?</a><br><br>
+            <input class="button" type="submit" value="Sign in">
+            </div>
+        <p id="outside">Terms of use  Privacy & Cookies   ...</p>
+        </div>
+        
+
+    </div>
+</body>
+</html>
